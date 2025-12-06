@@ -1,0 +1,121 @@
+<section class="hero-section min-h-screen pt-32 pb-24 px-4 md:px-12 flex items-center relative overflow-hidden">
+    
+    <!-- Glow Background -->
+    <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 w-[450px] h-[450px] bg-yellow-200/10 rounded-full blur-[120px] pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-16 items-center relative z-10">
+        
+        <!-- LEFT CONTENT -->
+        <div class="lg:col-span-7 text-white space-y-10 hero-content-wrapper">
+
+            <!-- URGENCY BADGE -->
+            <div class="inline-block">
+                <div class="bg-red-600/30 backdrop-blur-xl border border-red-300/40 text-red-100 font-semibold px-6 py-2 rounded-full inline-flex items-center gap-2 text-xs uppercase shadow-xl">
+                    <span class="w-2 h-2 bg-red-400 rounded-full animate-pulse"></span>
+                    <span>Kursi Hampir Penuh — Daftar Sekarang</span>
+                </div>
+            </div>
+
+            <!-- HEADLINE -->
+            <h1 class="font-black text-5xl md:text-6xl lg:text-7xl leading-tight tracking-tight drop-shadow-xl">
+                <span class="block">Waktu Anda Tidak Banyak.</span>
+                <span class="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 to-white">
+                    Kompetitor Sedang Menyalip.
+                </span>
+            </h1>
+
+            <!-- SUB COPY -->
+            <div class="space-y-5 max-w-2xl text-white/90 leading-relaxed text-lg">
+                
+                <p class="hero-desc">
+                    Dalam <strong class="text-yellow-300 font-bold">7–14 hari ke depan</strong>, bisnis Anda bisa mulai diserbu pelanggan—
+                    <span class="font-bold text-yellow-300">atau justru ditinggal kompetitor yang lebih cepat bergerak.</span>
+                </p>
+
+                <p class="hero-desc">
+                    Karena itulah webinar ini dirancang dengan fokus <strong class="font-bold text-yellow-200">aksi cepat</strong>, bukan teori:
+                    Anda akan mempelajari strategi <strong class="font-bold text-yellow-300 border-b border-yellow-300">Hybrid Traffic</strong>—perpaduan brutal antara 
+                    <strong class="text-white font-bold">SEO Google (pencarian niat beli)</strong> dan 
+                    <strong class="text-white font-bold">TikTok Hyperlocal (ledakan perhatian instan)</strong>.
+                </p>
+
+                <p class="hero-desc font-bold text-yellow-200 text-[17px] tracking-wide">
+                    Hasilnya? Dominasi pasar lokal dalam waktu singkat.
+                </p>
+            </div>
+
+            <!-- VIDEO PREVIEW -->
+            <div class="mt-6 w-full max-w-lg">
+                <div class="video-frame aspect-video bg-black relative shadow-2xl hover:shadow-yellow-400/20 transition duration-300 rounded-2xl overflow-hidden border-4 border-white/10">
+                    <iframe 
+                        class="w-full h-full object-cover"
+                        src="https://www.youtube.com/embed/S5n5cLKa7AU?autoplay=1&mute=1&controls=1&loop=1&playlist=S5n5cLKa7AU&modestbranding=1&rel=0" 
+                        title="Webinar Teaser" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="flex items-center gap-2 mt-3 text-xs text-white/60 font-medium ml-2">
+                    <i class="ph-fill ph-info"></i>
+                    <span>Tonton cuplikan materi (90 detik).</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- RIGHT FORM -->
+        <div class="lg:col-span-5 w-full animate-on-scroll" style="transition-delay: 0.2s">
+
+            <div class="hero-form-glass shadow-2xl border border-white/20 rounded-3xl backdrop-blur-2xl p-8 bg-white/60">
+                
+                <div class="text-center mb-6">
+                    <h3 class="text-2xl font-black text-gray-900 leading-tight">
+                        Daftar Sekarang — Sebelum Ditutup
+                    </h3>
+                    <p class="text-sm text-gray-600 mt-1">
+                        Akses Zoom + Bonus Materi Langsung ke Email Anda.
+                    </p>
+                </div>
+
+                <form id="waForm" class="space-y-4">
+
+                    <div class="input-group">
+                        <i class="ph-duotone ph-user input-icon"></i>
+                        <input type="text" id="nama" required class="form-input" placeholder="Nama Lengkap Anda">
+                    </div>
+
+                    <div class="input-group">
+                        <i class="ph-duotone ph-envelope input-icon"></i>
+                        <input type="email" id="email" required class="form-input" placeholder="Alamat Email Bisnis">
+                    </div>
+
+                    <div class="input-group">
+                        <i class="ph-duotone ph-whatsapp-logo input-icon"></i>
+                        <input type="tel" id="whatsapp" required class="form-input" placeholder="Nomor WhatsApp (Aktif)">
+                    </div>
+
+                    <div class="input-group">
+                        <i class="ph-duotone ph-storefront input-icon"></i>
+                        <input type="text" id="perusahaan" required class="form-input" placeholder="Nama Bisnis / Toko">
+                    </div>
+
+                    <!-- CTA BUTTON ➜ Urgency -->
+                    <button type="submit" class="btn-modern group mt-4 w-full">
+                        <span class="flex items-center justify-center gap-3 font-bold tracking-wide text-[15px]">
+                            AMANKAN KURSI ANDA SEKARANG
+                            <i class="ph-bold ph-arrow-right group-hover:translate-x-1 transition"></i>
+                        </span>
+                    </button>
+
+                    <div class="text-center mt-3">
+                        <span class="inline-flex items-center gap-1 text-[10px] text-gray-500 bg-gray-100 px-2 py-1 rounded border border-gray-200">
+                            <i class="ph-fill ph-lock-key text-green-600"></i> Data Anda dilindungi 100%.
+                        </span>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
